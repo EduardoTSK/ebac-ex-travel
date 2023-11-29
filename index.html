@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel</title>
+</head>
+<body>
+    <header id="header" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-tittle">Syzygy Travel</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about" class="nav-link">
+                            <i class="bi bi-suitcase-lg me-1"></i>
+                            Sobre a Syzygy
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#topics" class="nav-link">
+                            <i class="bi bi-star me-1"></i>
+                            Destaques
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#places" class="nav-link">
+                            <i class="bi bi-airplane me-1"></i>
+                            Lugares
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact" class="nav-link">
+                            <i class="bi bi-chat-square-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button data-bs-target="#carousel" data-bs-slide-to="0" class="active" type="button"></button>
+                    <button data-bs-target="#carousel" data-bs-slide-to="1" type="button"></button>
+                    <button data-bs-target="#carousel" data-bs-slide-to="2" type="button"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/main.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-tittle">Sobre <span class="text-color">a Syzygy</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veniam nesciunt pariatur temporibus odit rerum eum aspernatur corporis deleniti possimus consequuntur, ipsam iusto voluptatum, alias beatae eos. Ab, vel! Maiores!
+                            </p>
+                            <h3 class="section-tittle">Visite <span class="text-color">a agência</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora magnam provident quisquam magni natus pariatur iusto illum, ipsa earum dicta, ea explicabo, facere assumenda dolore voluptatum tenetur officia dolorum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="topics" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Diversas <span class="text-color">oportunidades</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/topics/hotel.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-color fs-4">
+                            <i class="bi bi-building-fill"></i>
+                            Hotéis
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos, quidem, quo molestias iste cumque modi distinctio temporibus velit ipsa accusantium libero minus ea possimus! Omnis dolorem enim nesciunt ducimus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/topics/inter.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-color fs-4">
+                            <i class="bi bi-mortarboard-fill"></i>
+                            Intercâmbios
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos, quidem, quo molestias iste cumque modi distinctio temporibus velit ipsa accusantium libero minus ea possimus! Omnis dolorem enim nesciunt ducimus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/topics/migrate.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-color fs-4">
+                            <i class="bi bi-house-fill"></i>
+                            Migração
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos, quidem, quo molestias iste cumque modi distinctio temporibus velit ipsa accusantium libero minus ea possimus! Omnis dolorem enim nesciunt ducimus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="places" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5">
+                        Diga <span class="text-color">aonde você vai</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-places">
+                            <button data-bs-target="#brasil" data-bs-toggle="tab" class="fw-bold text-start nav-link text-color active" type="button">
+                                Brasil
+                            </button>
+                            <button data-bs-target="#latam" data-bs-toggle="tab" class="fw-bold text-start nav-link text-color" type="button">
+                                América do Sul
+                            </button>
+                            <button data-bs-target="#north" data-bs-toggle="tab" class="fw-bold text-start nav-link text-color" type="button">
+                                América do Norte
+                            </button>
+                            <button data-bs-target="#euro" data-bs-toggle="tab" class="fw-bold text-start nav-link text-color" type="button">
+                                Europa
+                            </button>
+                            <button data-bs-target="#asia" data-bs-toggle="tab" class="fw-bold text-start nav-link text-color" type="button">
+                                Ásia
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="brasil" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/br/rio.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Rio de Janeiro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/br/fortal.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Fortaleza</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/br/sp.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">São Paulo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/br/bahia.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Bahia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/br/sul.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Foz do Iguaçu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="latam" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/lat/arg.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Argentina</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/lat/bol.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Bolívia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/lat/chi.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Chile</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/lat/col.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Colômbia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/lat/peru.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Peru</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="north" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/north/eua.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Estados Unidos da América</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/north/mex.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">México</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/north/cnd.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Canadá</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/north/cuba.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Cuba</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/am/north/bhms.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Bahamas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="euro" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/places/euro/port.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Portugal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/euro/fr.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">França</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/euro/ita.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Itália</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/euro/uk.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Inglaterra</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/euro/irl.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Irlanda</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="asia" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/places/asia/jpn.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Japão</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/asia/china.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">China</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/asia/krs.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Coreia do Sul</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/asia/mldv.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Maldivas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/places/asia/rus.jpg" alt="" class="d-block w-100 rounded">
+                                        <h5 class="text-color fw-bold mt-2">Russia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center"><span class="text-color">Contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold text-color">Seu nome</label>
+                                <input id="name" type="text" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-color">Seu e-mail</label>
+                                <input id="email" type="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-color">Seu telefone (opcional)</label>
+                                <input id="tel" type="tel" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="msg" class="form-label fw-bold text-color">Sua mensagem (opcional)</label>
+                                <textarea id="msg" class="form-control"></textarea>
+                            </div>
+                            <button class="btn fw-bold" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="socLinks">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 mx-1">
+                                    <a href="#">
+                                        <i class="bi bi-youtube text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-color"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4 text-color">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Boa Viagem n° 42, Bairro Travel - Brasília - DF
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
